@@ -25,5 +25,7 @@ yarn-error.log*
 
 .eslintcache
 
-# ! Need to seed on this one
+# ! Need to see on this one
 seed.js
+
+src/lib

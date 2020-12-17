@@ -9,7 +9,7 @@ export function FooterContainer() {
       <Footer.Break />
       <Footer.Row>
         <Footer.Column>
-          <Footer.Link href="#">FAQS</Footer.Link>
+          <Footer.Link href="#">FAQs</Footer.Link>
           <Footer.Link href="#">Investor Relations</Footer.Link>
           <Footer.Link href="#">Ways to Watch</Footer.Link>
           <Footer.Link href="#">Corporate Information</Footer.Link>
@@ -23,7 +23,7 @@ export function FooterContainer() {
         </Footer.Column>
         <Footer.Column>
           <Footer.Link href="#">Media Centre</Footer.Link>
-          <Footer.Link href="#">But gift cards</Footer.Link>
+          <Footer.Link href="#">Buy gift cards</Footer.Link>
           <Footer.Link href="#">Cookie Preferences</Footer.Link>
           <Footer.Link href="#">Legal Notices</Footer.Link>
         </Footer.Column>

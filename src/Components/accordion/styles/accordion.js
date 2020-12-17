@@ -20,7 +20,8 @@ export const Inner = styled.div`
 export const Item = styled.div`
   color: white;
   margin-bottom: 10px;
-  max-width: 670px; /* Used to make accordion not resize when  opening tabs since is about max width of headers */
+  margin: 0 auto 10px;
+  max-width: 650px;
   width: 100%;
 
   &:first-of-type {
