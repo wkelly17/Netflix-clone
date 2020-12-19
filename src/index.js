@@ -6,10 +6,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { GlobalStyles } from './global-styles.js';
 import { FirebaseContext } from './context/firebase';
+import { firebase } from './lib/firebase.prod';
 
 ReactDOM.render(
   <React.StrictMode>
-    <FirebaseContext.Provider value={{ firebase: window.firebase }}>
+    <FirebaseContext.Provider value={{ firebase }}>
       <GlobalStyles />
       <App />
     </FirebaseContext.Provider>

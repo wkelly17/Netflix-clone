@@ -28,4 +28,5 @@ yarn-error.log*
 # ! Need to see on this one
 seed.js
 
-src/lib
+src/lib 
+# api key 
