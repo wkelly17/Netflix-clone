@@ -33,6 +33,10 @@ export default function Signin() {
     // if error, populate the error state
   };
 
+  let noteStyle = {
+    color: 'white',
+  };
+
   return (
     <>
       <HeaderContainer>
@@ -53,6 +57,7 @@ export default function Signin() {
               placeholder="Password"
               onChange={({ target }) => setPassword(target.value)}
             />
+            <p style={noteStyle}>Email: demouser@demo.com Demopassword1</p>
             <Form.Submit type="submit" disabled={isInvalid}>
               Sign In
             </Form.Submit>

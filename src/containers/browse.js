@@ -15,7 +15,7 @@ export function BrowseContainer({ slides }) {
   const { firebase } = useContext(FirebaseContext);
 
   const user = {
-    displayName: 'Will',
+    displayName: 'Demo User',
     photoURL: '1',
   };
 
