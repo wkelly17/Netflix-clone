@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+*.lock
+yarn.lock
+
 
 # testing
 /coverage
@@ -30,3 +33,4 @@ seed.js
 
 src/lib 
 # api key 
+yarn.lock
