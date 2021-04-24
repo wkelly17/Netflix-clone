@@ -1,4 +1,4 @@
-import React, { useState, useContext, useEffect } from 'react';
+import React, { useState, useContext, useEffect, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import { Header, Loading, Card, Player } from '../Components';
 import * as ROUTES from '../constants/routes';
@@ -14,10 +14,12 @@ export function BrowseContainer({ slides }) {
   const [slideRows, setSlideRows] = useState([]);
   const { firebase } = useContext(FirebaseContext);
 
-  const user = {
-    displayName: 'Will',
-    photoURL: '1',
-  };
+  const user = useMemo(() => {
+    return {
+      displayName: 'Test User',
+      photoURL: '1',
+    };
+  }, []);
 
   useEffect(() => {
     setTimeout(() => {
