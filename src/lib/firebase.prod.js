@@ -7,14 +7,14 @@ import 'firebase/auth';
 // import { seedDatabase } from '../seed';
 
 const config = {
-  apiKey: process.ENV.apiKey,
-  authDomain: process.ENV.authDomain,
-  databaseURL: process.ENV.databaseURL,
-  projectId: process.ENV.projectId,
-  storageBucket: process.ENV.storageBucket,
-  messagingSenderId: process.ENV.messagingSenderId,
-  appId: process.ENV.appId,
-  measurementId: process.ENV.measurementId,
+  apiKey: process.env.apiKey,
+  authDomain: process.env.authDomain,
+  databaseURL: process.env.databaseURL,
+  projectId: process.env.projectId,
+  storageBucket: process.env.storageBucket,
+  messagingSenderId: process.env.messagingSenderId,
+  appId: process.env.appId,
+  measurementId: process.env.measurementId,
 };
 
 const firebase = Firebase.initializeApp(config);
